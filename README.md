@@ -3,6 +3,8 @@ Applications Using Web3E
 
 ## Samples showing real world use cases of Web3E
 
+NB: All samples use Platformio IDE
+
 ### AlphaWallet Office Door. https://www.youtube.com/watch?v=D_pMOMxXrYY
 
 Runs a DApp Server on an embedded device running Arduino framework.
