@@ -16,3 +16,15 @@ Runs a DApp Server on an embedded device running Arduino framework.
 - The address calculated from the EC-recover is first compared with the address sent to check they match. If they match, we know the user owns the private key for that address.
 - The address is checked to see if it holds an ERC875 AlphaWallet office entry attestation token. If the address does, then the microcontroller begins the sequence to open the door.
 - Opening the door is a series of three button presses to simulate opening the intercom (usually the check the identity of the person asking for access), with intercom open the door open command is sent, then the intercom closed. Some electromechanical relays controlled from the device and wired up to the switches perform these actions.
+
+### Setup Instructions
+
+- Install [Platformio](https://platformio.org/)
+- Clone this repo and open in Platformio.
+- Set up your WiFi credentials in main.cpp
+- [Get AlphaWallet](https://www.awallet.io)
+- [Get some testnet Eth](https://faucet.kovan.network). Visit this site on the AlphaWallet DApp browser.
+- [Mint some ERC875 tokens](https://alpha-wallet.github.io/ERC875-token-factory/index.html). Visit here on your DApp browser.
+- Take a note of the contract address. Copy/paste contract address into the source code inside the 'STORMBIRD_CONTRACT' define.
+- Build and deploy the sample to your Arduino framework device. [We used this one.](https://www.aliexpress.com/item/Lolin-ESP32-OLED-V2-0-Pro-ESP32-OLED-wemos-pour-Arduino-ESP32-OLED-WiFi-Modules-Bluetooth/32824839148.html?spm=a2g0s.9042311.0.0.17af4c4du3MLai)
+- Use the transfer or MagicLink on AlphaWallet to give out the tokens.
