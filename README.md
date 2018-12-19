@@ -28,3 +28,9 @@ Runs a DApp Server on an embedded device running Arduino framework.
 - Take a note of the contract address. Copy/paste contract address into the source code inside the 'STORMBIRD_CONTRACT' define.
 - Build and deploy the sample to your Arduino framework device. [We used this one.](https://www.aliexpress.com/item/Lolin-ESP32-OLED-V2-0-Pro-ESP32-OLED-wemos-pour-Arduino-ESP32-OLED-WiFi-Modules-Bluetooth/32824839148.html?spm=a2g0s.9042311.0.0.17af4c4du3MLai)
 - Use the transfer or MagicLink on AlphaWallet to give out the tokens.
+
+
+# Donations
+If you support the cause, we could certainly use donations to help fund development:
+
+0xbc8dAfeacA658Ae0857C80D8Aa6dE4D487577c63
