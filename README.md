@@ -22,7 +22,7 @@ Runs a DApp Server on an embedded device running Arduino framework.
 - Install [Platformio](https://platformio.org/)
 - Clone this repo and open in Platformio.
 - Set up your WiFi credentials in main.cpp
-- [Get AlphaWallet](https://www.awallet.io)
+- [Get AlphaWallet](https://alphawallet.com)
 - [Get some testnet Eth](https://faucet.kovan.network). Visit this site on the AlphaWallet DApp browser.
 - [Mint some ERC875 tokens](https://alpha-wallet.github.io/ERC875-token-factory/index.html). Visit here on your DApp browser.
 - Take a note of the contract address. Copy/paste contract address into the source code inside the 'STORMBIRD_CONTRACT' define.
