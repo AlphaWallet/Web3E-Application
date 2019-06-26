@@ -18,7 +18,7 @@ const char *ssid = "PNP";
 const char *password = "1234567890";
 const char *INFURA_HOST = "rinkeby.infura.io";
 const char *INFURA_PATH = "/v3/c7df4c29472d4d54a39f7aa78f146853";
-#define STORMBIRD_CONTRACT "0xd2a0ddf0f4d7876303a784cfadd8f95ec1fb791c"
+#define STORMBIRD_CONTRACT "0x7c81DF31BB2f54f03A56Ab25c952bF3Fa39bDF46"
 #define INTERCOM_PIN 13     // ID of the pin intercom relay is connected to
 #define GATE_PIN 12         // ID of the pin the door relay is connected to
 #define BLUE_LED 2          // Little blue LED on the ESP8266/ESP32
