@@ -24,7 +24,7 @@ Runs a DApp Server on an embedded device running Arduino framework.
 - Set up your WiFi credentials in main.cpp
 - [Get AlphaWallet Android](https://1x.alphawallet.com/dl/latest.apk) or [iOS](https://apps.apple.com/us/app/alphawallet/id1358230430)
 - [Get some testnet Eth](https://faucet.kovan.network). Visit this site on the AlphaWallet DApp browser.
-- [Mint some ERC875 tokens](https://alpha-wallet.github.io/ERC875-token-factory/index.html). Visit here on your DApp browser.
+- [Mint some ERC875 tokens](https://tf.alphawallet.com). Visit here on your DApp browser.
 - Take a note of the contract address. Copy/paste contract address into the source code inside the 'STORMBIRD_CONTRACT' define.
 - Build and deploy the sample to your Arduino framework device. [We used this one.](https://www.aliexpress.com/item/Lolin-ESP32-OLED-V2-0-Pro-ESP32-OLED-wemos-pour-Arduino-ESP32-OLED-WiFi-Modules-Bluetooth/32824839148.html?spm=a2g0s.9042311.0.0.17af4c4du3MLai)
 - Use the transfer or MagicLink on AlphaWallet to give out the tokens.
