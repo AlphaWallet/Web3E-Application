@@ -14,9 +14,9 @@
 #include "ActionHandler.h"
 #include "TokenCache.h"
 
-const char *ssid = "<Your SSID>";
-const char *password = "<Your WiFi password>";
-const char *INFURA_HOST = "kovan.infura.io";
+const char *ssid = "PNP";
+const char *password = "1234567890";
+const char *INFURA_HOST = "rinkeby.infura.io";
 const char *INFURA_PATH = "/v3/c7df4c29472d4d54a39f7aa78f146853";
 #define STORMBIRD_CONTRACT "0xd2a0ddf0f4d7876303a784cfadd8f95ec1fb791c"
 #define INTERCOM_PIN 13     // ID of the pin intercom relay is connected to
