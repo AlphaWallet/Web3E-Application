@@ -1,0 +1,5 @@
+language: java
+
+script:
+  - ./gradlew -i build
+  - ./gradlew -i test
