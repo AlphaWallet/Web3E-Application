@@ -42,7 +42,8 @@ Devices found on IP address: xx.xx.xxx.149
 ```
 7. Send the edited TokenScript XML ```karma.canonicalized.xml``` to your phone by email or messenger.
 8. Install AlphaWallet from App Store, Play Store or HuaWei Store if you haven't already.
-9. Click on the TokenScript XML and select the AlphaWallet icon to install the script.
-10. Find the token in the wallet and click on it to access the IoT device.
+9. If you didn't use AlphaWallet to create the token contract in step 1, you will need to either import the account into AlphaWallet or transfer the token/s to your AlphaWallet account.
+10. Click on the TokenScript XML and select the AlphaWallet icon to install the script.
+11. Find the token in the wallet and click on it to access the IoT device.
 
 ## Join us in the TokenScript open community here: https://community.tokenscript.org/
