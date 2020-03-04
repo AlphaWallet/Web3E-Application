@@ -16,8 +16,10 @@ If you do not have a serial monitor, then ensure your laptop/phone is on the sam
 
 You should see something like this:
 
-```Devices found on IP address: xx.xx.xxx.149
-0x123456789ABCDEF0123456789ABCDEF012345678```
+```
+Devices found on IP address: xx.xx.xxx.149
+0x123456789ABCDEF0123456789ABCDEF012345678
+```
 
 6. Copy the contract address from 2. into the "CarToken" declaration on line 17 of the TokenScript XML found here: ``````
 7. Copy the device address from 5. into the 'iotAddr' var at line 356 of the TokenScript. This is the UID of the device that the proxy server will use to forward your API calls to the device.
