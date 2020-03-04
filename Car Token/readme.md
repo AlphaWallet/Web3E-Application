@@ -2,7 +2,7 @@
 
 ## To use this Web3E firmware with TokenScript:
 
-1. Deploy your ERC721 or ERC875 tokenscript using a factory (https://mintable.app/create or https://tf.alphawallet.com)
+1. Deploy your ERC721 or ERC875 tokenscript using a factory (https://mintable.app/create or https://tf.alphawallet.com). Note that the sample code is built to work with ERC875, so use this standard if you don't want to modify the main.cpp to detect ERC721 balance (a trivial modification).
 2. Copy the created contract address to both the firmware and the TokenScript.
   - In main.cpp replace the 0x123456... with the created contract address from 1.
   - In the ```karma.canonicalized.xml``` in this repo replace the text '0xYOUR ERC721 OR ERC875 CONTRACT ADDRESS HERE' at line 17 with the address from step 1.
