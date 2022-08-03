@@ -5,7 +5,8 @@ Applications Using Web3E
 
 NB: All samples use Platformio IDE
 
-### AlphaWallet Office Door. https://www.youtube.com/watch?v=D_pMOMxXrYY
+### Smart Token Labs Sydney Office Door. https://www.youtube.com/shorts/B69bO2k0olU
+### Smart Token Labs Singapore Office Door. https://www.youtube.com/watch?v=D_pMOMxXrYY
 
 Runs a DApp Server on an embedded device running Arduino framework.
 
