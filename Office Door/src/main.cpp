@@ -23,11 +23,10 @@ const char *INFURA_PATH = "/v3/c7df4c29472d4d54a39f7aa78f146853";
 #define GATE_PIN 12         // ID of the pin the door relay is connected to
 #define BLUE_LED 2          // Little blue LED on the ESP8266/ESP32
 
-//use these if you want to expose your DApp server to outside world via portforwarding
-// IPAddress ipStat(192, 168, 1, 85);
-// IPAddress gateway(192, 168, 1, 1);
-// IPAddress subnet(255, 255, 255, 0);
-// IPAddress dns(192, 168, 1, 1);
+IPAddress ipStat(192, 168, 1, 250);
+IPAddress gateway(192, 168, 1, 1);
+IPAddress subnet(255, 255, 255, 0);
+IPAddress dns(192, 168, 1, 1);
 
 Web3 web3(INFURA_HOST, INFURA_PATH);
 WiFiServer server(80);
